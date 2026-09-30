@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgPastry" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff1e6" />
+      <stop offset="100%" stop-color="#fde2e4" />
+    </linearGradient>
+    <linearGradient id="croissantGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f4a261" />
+      <stop offset="60%" stop-color="#e76f51" />
+      <stop offset="100%" stop-color="#bc6c25" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="12" fill="url(#bgPastry)" />
+  <ellipse cx="200" cy="225" rx="140" ry="24" fill="#3d2314" opacity="0.12" />
+  <ellipse cx="200" cy="210" rx="150" ry="30" fill="#fdfbf7" stroke="#e0e1dd" stroke-width="3" />
+  <ellipse cx="200" cy="208" rx="130" ry="22" fill="#fff" />
+  <path d="M120 185 C95 160 115 130 145 138 C170 120 230 120 255 138 C285 130 305 160 280 185 C245 170 155 170 120 185 Z" fill="url(#croissantGrad)" stroke="#9a3412" stroke-width="2" />
+  <path d="M165 130 C185 125 215 125 235 130 C245 145 240 170 230 175 C210 172 190 172 170 175 C160 170 155 145 165 130 Z" fill="#e76f51" stroke="#9a3412" stroke-width="1.5" />
+  <path d="M185 127 C195 125 205 125 215 127 C220 138 218 165 210 170 C200 170 195 170 190 170 C182 165 180 138 185 127 Z" fill="#f4a261" />
+  <circle cx="150" cy="155" r="2" fill="#fff" opacity="0.6" />
+  <circle cx="195" cy="140" r="2.5" fill="#fff" opacity="0.6" />
+  <circle cx="240" cy="155" r="2" fill="#fff" opacity="0.6" />
+  <circle cx="215" cy="150" r="1.5" fill="#fff" opacity="0.6" />
+  <circle cx="175" cy="152" r="2" fill="#fff" opacity="0.6" />
+  <circle cx="310" cy="190" r="18" fill="#d97706" />
+  <circle cx="304" cy="186" r="3" fill="#451a03" />
+  <circle cx="315" cy="184" r="2.5" fill="#451a03" />
+  <circle cx="312" cy="195" r="3" fill="#451a03" />
+  <circle cx="320" cy="192" r="2" fill="#451a03" />
+  <circle cx="302" cy="194" r="2.5" fill="#451a03" />
+</svg>

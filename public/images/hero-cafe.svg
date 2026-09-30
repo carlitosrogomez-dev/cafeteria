@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d2314" />
+      <stop offset="100%" stop-color="#1f1008" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4a373" />
+      <stop offset="100%" stop-color="#faedcd" />
+    </linearGradient>
+    <linearGradient id="coffeeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8b5a2b" />
+      <stop offset="100%" stop-color="#4a2c11" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#bgGrad)" />
+  <circle cx="100" cy="80" r="140" fill="#ffffff" opacity="0.03" />
+  <circle cx="520" cy="320" r="160" fill="#ffffff" opacity="0.03" />
+  <ellipse cx="300" cy="340" rx="240" ry="25" fill="#0f0704" opacity="0.6" />
+  <rect x="40" y="325" width="520" height="18" rx="6" fill="#5c3822" />
+  <rect x="45" y="333" width="510" height="6" fill="#3d2314" />
+  <path d="M190 140 L250 140 L230 200 L255 280 Q255 295 220 295 L220 295 Q185 295 185 280 L210 200 Z" fill="#ffffff" opacity="0.15" stroke="#ffffff" stroke-width="3" stroke-linejoin="round" />
+  <path d="M194 235 L246 235 L252 278 Q252 292 220 292 Q188 292 188 278 Z" fill="url(#coffeeGrad)" opacity="0.85" />
+  <rect x="206" y="195" width="28" height="20" rx="4" fill="#c68b59" />
+  <line x1="220" y1="195" x2="220" y2="220" stroke="#fefae0" stroke-width="2" />
+  <ellipse cx="220" cy="140" rx="30" ry="8" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.4" />
+  <path d="M216 115 Q212 95 222 75" fill="none" stroke="#faedcd" stroke-width="2.5" stroke-linecap="round" opacity="0.5" />
+  <ellipse cx="380" cy="305" rx="65" ry="12" fill="#d4a373" />
+  <ellipse cx="380" cy="303" rx="55" ry="8" fill="#faedcd" />
+  <path d="M335 250 Q335 295 380 295 Q425 295 425 250 Z" fill="#fdfbf7" />
+  <ellipse cx="380" cy="250" rx="45" ry="11" fill="#4a2c11" />
+  <ellipse cx="380" cy="250" rx="38" ry="8" fill="#804a1f" />
+  <path d="M380 245 C372 248 370 252 380 255 C390 252 388 248 380 245 Z" fill="#faedcd" />
+  <path d="M425 260 C445 260 445 285 423 285" fill="none" stroke="#fdfbf7" stroke-width="6" stroke-linecap="round" />
+  <path d="M365 225 Q360 200 370 175" fill="none" stroke="#faedcd" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+  <path d="M385 220 Q390 195 380 170" fill="none" stroke="#faedcd" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+  <path d="M398 225 Q405 205 395 185" fill="none" stroke="#faedcd" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+  <g fill="#4a2c11" stroke="#2b1810" stroke-width="1.5">
+    <ellipse cx="290" cy="315" rx="10" ry="7" transform="rotate(-25 290 315)" />
+    <path d="M288 310 Q290 315 292 320" stroke="#faedcd" stroke-width="1" fill="none" />
+    <ellipse cx="312" cy="318" rx="9" ry="6" transform="rotate(35 312 318)" />
+    <path d="M310 314 Q312 318 314 322" stroke="#faedcd" stroke-width="1" fill="none" />
+    <ellipse cx="465" cy="310" rx="10" ry="7" transform="rotate(15 465 310)" />
+    <path d="M463 306 Q465 310 467 314" stroke="#faedcd" stroke-width="1" fill="none" />
+    <ellipse cx="485" cy="315" rx="9" ry="6" transform="rotate(-40 485 315)" />
+    <path d="M483 311 Q485 315 487 319" stroke="#faedcd" stroke-width="1" fill="none" />
+  </g>
+  <rect x="75" y="55" width="150" height="34" rx="8" fill="#d4a373" opacity="0.2" />
+  <text x="85" y="77" fill="#faedcd" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" letter-spacing="1">AROMA &amp; GRANO</text>
+</svg>

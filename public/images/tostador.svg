@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgRoaster" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3d2314" />
+      <stop offset="100%" stop-color="#1f1008" />
+    </linearGradient>
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#495057" />
+      <stop offset="50%" stop-color="#adb5bd" />
+      <stop offset="100%" stop-color="#343a40" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="12" fill="url(#bgRoaster)" />
+  <rect x="50" y="260" width="300" height="15" rx="3" fill="#2b1810" />
+  <rect x="130" y="100" width="140" height="150" rx="10" fill="url(#metalGrad)" stroke="#212529" stroke-width="2" />
+  <ellipse cx="200" cy="175" rx="55" ry="55" fill="#212529" />
+  <circle cx="200" cy="175" r="45" fill="#343a40" stroke="#d4a373" stroke-width="3" />
+  <path d="M170 175 L230 175 M200 145 L200 205" stroke="#d4a373" stroke-width="2" />
+  <circle cx="200" cy="175" r="12" fill="#d4a373" />
+  <polygon points="170,100 230,100 245,60 155,60" fill="#adb5bd" stroke="#212529" stroke-width="2" />
+  <ellipse cx="200" cy="60" rx="45" ry="10" fill="#ced4da" stroke="#212529" stroke-width="2" />
+  <rect x="270" y="160" width="40" height="12" fill="#adb5bd" />
+  <rect x="295" y="120" width="15" height="50" fill="#adb5bd" />
+  <path d="M295 120 L320 80 L310 80 L290 120 Z" fill="#6c757d" />
+  <path d="M60 250 C60 190 75 190 85 200 C95 190 110 190 110 250 Z" fill="#b08968" stroke="#7f4f24" stroke-width="2" />
+  <ellipse cx="85" cy="200" rx="15" ry="6" fill="#ddb892" />
+  <text x="73" y="235" fill="#4a2c11" font-size="11" font-weight="bold" font-family="sans-serif">SCA</text>
+</svg>
